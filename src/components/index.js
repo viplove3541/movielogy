@@ -6,3 +6,4 @@ export { default as Profile } from './Profile/Profile';
 export { default as SideBar } from './Sidebar/SideBar';
 export { default as MovieList } from './MovieList/MovieList';
 export { default as Movie } from './Movie/Movie';
+export { default as Search } from './Search/Search';
