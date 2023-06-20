@@ -1,1 +1,1 @@
-movielogy by viplove
+movielogy movie app by viplove
