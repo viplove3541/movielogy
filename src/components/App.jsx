@@ -6,6 +6,7 @@ import useStyles from './styles';
 
 const App = () => {
   const classes = useStyles();
+
   return (
     <div className={classes.root}>
       <CssBaseline />
@@ -15,11 +16,13 @@ const App = () => {
         <Routes>
           <Route exact path='/movie/:id' element={<MovieInfo />} />
 
-          <Route path='/actors/:id' element={<Actors />} />
+          <Route exact path='/actors/:id' element={<Actors />} />
 
-          <Route path='/' element={<Movies />} />
+          <Route exact path='/' element={<Movies />} />
 
-          <Route path='/profile/:id' element={<Profile />} />
+          <Route exact path='/approved' element={<Movies />} />
+
+          <Route exact path='/profile/:id' element={<Profile />} />
         </Routes>
       </main>
     </div>

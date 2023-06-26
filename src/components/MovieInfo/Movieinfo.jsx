@@ -76,7 +76,7 @@ const Movieinfo = () => {
 
   return (
     <Grid container className={classes.containerSpaceAround}>
-      <Grid item sm={12} lg={4}>
+      <Grid item sm={12} lg={4} align='center'>
         <img
           className={classes.poster}
           src={`https://image.tmdb.org/t/p/w500/${data?.poster_path}`}
@@ -102,10 +102,7 @@ const Movieinfo = () => {
             </Typography>
           </Box>
           <Typography variant='h7' align='center' gutterBottom>
-            {data?.runtime}mins{' '}
-            {data?.spoken_languages.length > 0
-              ? `/ ${data?.spoken_languages[0].name}`
-              : ''}
+            {data?.runtime}mins | Language:{data?.spoken_languages[0].name}
           </Typography>
         </Grid>
         <Grid item className={classes.genresContainer}>
