@@ -25,6 +25,7 @@ import {
 import { Link, useParams } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import axios from 'axios';
+import { useState } from 'react';
 import {
   useGetMovieQuery,
   useGetRecommendationsQuery,
@@ -40,6 +41,7 @@ const Movieinfo = () => {
   const { data, isFetching, error } = useGetMovieQuery(id);
   const classes = usestyles();
   const dispatch = useDispatch();
+  const [open, setOpen] = useState(false);
 
   const { data: recommendations, isFetching: isRecommendationsFetching } =
     useGetRecommendationsQuery({
@@ -186,7 +188,11 @@ const Movieinfo = () => {
                 >
                   imdb
                 </Button>
-                <Button onClick={() => {}} href='#' endIcon={<Theaters />}>
+                <Button
+                  onClick={() => setOpen(true)}
+                  href='#'
+                  endIcon={<Theaters />}
+                >
                   Trailer
                 </Button>
               </ButtonGroup>
@@ -194,7 +200,7 @@ const Movieinfo = () => {
             <Grid item xs={12} sm={6} className={classes.buttonContainer}>
               <ButtonGroup size='medium' variant='outlined'>
                 <Button
-                  onclick={addToFavorites}
+                  onClick={addToFavorites}
                   endIcon={
                     isMovieFavorited ? <FavoriteBorderOutlined /> : <Favorite />
                   }
@@ -202,7 +208,7 @@ const Movieinfo = () => {
                   {isMovieFavorited ? 'unFavorite' : 'favorite'}
                 </Button>
                 <Button
-                  onclick={addToWatchlist}
+                  onClick={addToWatchlist}
                   endIcon={isMovieWatchlisted ? <Remove /> : <PlusOne />}
                 >
                   Watchlist
@@ -238,6 +244,23 @@ const Movieinfo = () => {
           <Box>Sorry, nothing was found.</Box>
         )}
       </Box>
+      <Modal
+        closeAfterTransition
+        className={classes.modal}
+        open={open}
+        onClose={() => setOpen(false)}
+      >
+        {data?.videos?.results?.length > 0 && (
+          <iframe
+            autoPlay
+            className={classes.video}
+            frameBorder='0'
+            title='Trailer'
+            src={`https://www.youtube.com/embed/${data.videos.results[0].key}`}
+            allow='autoplay'
+          />
+        )}
+      </Modal>
     </Grid>
   );
 };
