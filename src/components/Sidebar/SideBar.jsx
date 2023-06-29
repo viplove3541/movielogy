@@ -32,9 +32,9 @@ const categories = [
 // ];
 
 const redLogo =
-  'https://fontmeme.com/permalink/230525/3d1c459fadb88e8a666a57b9d8819e08.png';
+  'https://fontmeme.com/permalink/230629/6946c78f40c869544bab3a4667c4dc98.png';
 const blueLogo =
-  'https://fontmeme.com/permalink/230525/4894c8f624bfc5f73bafc208eb66c899.png';
+  'https://fontmeme.com/permalink/230629/f553d9adaacd439e29385d2942ecce03.png';
 
 const SideBar = ({ setMobileOpen }) => {
   const { genreIdOrCategoryName } = useSelector(
