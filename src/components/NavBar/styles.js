@@ -33,4 +33,4 @@ export default makeStyles((theme) => ({
       textDecoration: 'none',
     }
   }
-}))
+}));

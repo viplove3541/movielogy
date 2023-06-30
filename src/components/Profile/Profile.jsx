@@ -34,7 +34,7 @@ const Profile = () => {
   };
 
   return (
-    <Box>
+    <Box style={{ marginTop: '-60px' }}>
       <Box display='flex' justifyContent='space-between'>
         <Typography variant='h4' gutterBottom>
           My Profile
@@ -49,8 +49,8 @@ const Profile = () => {
         </Typography>
       ) : (
         <Box>
-          <RatedCards title='Favorite Movies' movies={favoriteMovies} />
-          <RatedCards title='Watchlist' movies={watchlistMovies} />
+          <RatedCards title='FAVORITE MOVIES' movies={favoriteMovies} />
+          <RatedCards title='WATCHLIST' movies={watchlistMovies} />
         </Box>
       )}
     </Box>
