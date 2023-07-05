@@ -10,4 +10,4 @@ watchlist and list of favorite movies,
 
 movie search functionality,
 Alan AI voice functionality and many more.
-Alan works as an in-app voice assistant for the Filmpire project.
+Alan works as an in-app voice assistant for the Filmpire project..
