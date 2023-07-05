@@ -54,4 +54,4 @@ Used resources:
 * [MUI Library](https://mui.com/)
 
 <!-- MARKDOWN LINKS & IMAGES -->
-[product-screenshot]: src/assets/images/cinema.png
+[product-screenshot]: src/assets/images/screenshot1.png
