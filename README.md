@@ -40,7 +40,7 @@ Features include:
 * movie search functionality,
 * Alan AI voice functionality and many more.
 
-Alan works as an in-app voice assistant for the Movielogy project.
+Alan works as an in-app voice assistant for the Movielogy project. Try clicking on the Alan AI icon on the bottom right of the page and try saying, "Search Naruto" or "Make it light/ Make it dark" or say "Surprise me".
 
 
 
