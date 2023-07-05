@@ -27,7 +27,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://movielogy-viplove3541.netlify.app)
+[![Product Name Screen Shot][product-screenshot]]('https://fontmeme.com/permalink/230629/6946c78f40c869544bab3a4667c4dc98.png')
 
 Movielogy combines the desire to unleash powerful creativity with the industry's most advanced JavaScript tools including React.js, Redux, Material UI, Alan AI, and more.
 
