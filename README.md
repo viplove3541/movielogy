@@ -5,7 +5,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href='https://fontmeme.com/permalink/230629/6946c78f40c869544bab3a4667c4dc98.png'>
+  <a >
     <img src="'https://fontmeme.com/permalink/230629/6946c78f40c869544bab3a4667c4dc98.png'" alt="Movielogy" width="252" height="85">
   </a>
 
