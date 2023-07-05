@@ -27,7 +27,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]]('https://fontmeme.com/permalink/230629/6946c78f40c869544bab3a4667c4dc98.png')
+[![Product Name Screen Shot][product-screenshot]]("https://movielogy-viplove3541.netlify.app/")
 
 Movielogy combines the desire to unleash powerful creativity with the industry's most advanced JavaScript tools including React.js, Redux, Material UI, Alan AI, and more.
 
@@ -53,3 +53,5 @@ Used resources:
 * [Alan AI Documentation](https://alan.app/docs/)
 * [MUI Library](https://mui.com/)
 
+<!-- MARKDOWN LINKS & IMAGES -->
+[product-screenshot]: public/screenshot1.PNG
