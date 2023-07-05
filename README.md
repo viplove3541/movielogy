@@ -28,7 +28,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://filmpire-jovan.netlify.app/)
+[![Product Name Screen Shot][product-screenshot]](https://movielogy-viplove3541.netlify.app/)
 
 Filmpire combines the desire to unleash powerful creativity with the industry's most advanced JavaScript tools including React.js, Redux, Material UI, Alan AI, and more.
 
