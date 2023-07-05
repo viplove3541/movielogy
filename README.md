@@ -40,7 +40,7 @@ Features include:
 * movie search functionality,
 * Alan AI voice functionality and many more.
 
-Alan works as an in-app voice assistant for the Filmpire project.
+Alan works as an in-app voice assistant for the Movielogy project.
 
 
 
@@ -52,5 +52,4 @@ Used resources:
 * [The Movie DB API Documentation](https://developers.themoviedb.org/3/getting-started/introduction)
 * [Alan AI Documentation](https://alan.app/docs/)
 * [MUI Library](https://mui.com/)
-* [JavaScript Mastery](https://www.jsmastery.pro/)
 
