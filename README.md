@@ -3,6 +3,7 @@ Movielogy combines the desire to unleash powerful creativity with the industry's
 Features include:
 
 user authentication,
+
 light and dark mode,
 API calls with axios and Redux,
 actors and movie details page,
