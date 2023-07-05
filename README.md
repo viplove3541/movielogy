@@ -6,7 +6,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/viplove3541/movielogy">
-    <img src="src/assets/images/lightLogo.png" alt="Filmpire" width="252" height="85">
+    <img src="public/logo.png" alt="Filmpire" width="252" height="85">
   </a>
 
   <h2 align="center">Movielogy - Viplove Kale</h2>
